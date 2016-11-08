@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/img_musicpark_signin_bg"
+    tools:context="com.nilecon.musicparkacademy.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mc_logo_large"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_musicpark_signin_box_1"
+        android:layout_marginTop="100dp"
+        android:hint="Username"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_large"
+        android:drawableLeft="@drawable/img_musicpark_signin_user_icon"
+        android:paddingLeft="@dimen/text_small"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_musicpark_signin_box_1"
+        android:layout_marginTop="3dp"
+        android:hint="Password"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/text_large"
+        android:drawableLeft="@drawable/img_musicpark_signin_pass_icon"
+        android:paddingLeft="@dimen/text_small"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textSize="@dimen/text_medium"
+        android:id="@+id/forgot"
+        android:textColor="@color/txt_white"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_gravity="end"/>
+
+        <Button
+            android:id="@+id/musicpark_signin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_musicpark_signin_button"
+            android:text="SIGN IN"
+            android:textSize="@dimen/text_large"
+            android:layout_marginTop="@dimen/margin_vlarge"
+            android:textColor="@color/tab_gray"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/dont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:textColor="@color/txt_white"
+                android:textSize="@dimen/text_small_more"
+                />
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_medium"
+                android:textColor="@color/txt_white"
+                android:text="Sign Up"
+                android:layout_marginLeft="@dimen/text_medium"
+                android:drawableBottom="@drawable/img_iph_signin_icon_line"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

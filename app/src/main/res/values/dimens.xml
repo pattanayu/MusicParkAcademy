@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+
+    <!--PADDING SCALE-->
+    <dimen name="padding_vsmall">2dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="padding_large">15dp</dimen>
+    <dimen name="padding_vlarge">20dp</dimen>
+    <!--MARGIN SCALE-->
+    <dimen name="margin_vsmall">2dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_medium">10dp</dimen>
+    <dimen name="margin_large">15dp</dimen>
+    <dimen name="margin_vlarge">30dp</dimen>
+    <dimen name="menu_list_pic">135dp</dimen>
+
+    <dimen name="menu_list_txt">132dp</dimen>
+    <!--TEXT SCALE-->
+    <dimen name="text_vsmall">10sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_small_more">16sp</dimen>
+    <dimen name="text_less_medium">18sp</dimen>
+    <dimen name="text_medium">20sp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_vlarge">25sp</dimen>
+    <dimen name="text_extra">28sp</dimen>
+    <!--MENU-->
+    <dimen name="menu_image_size">80dp</dimen>
+    <!--HOME-->
+    <dimen name="main_video_size">200dp</dimen>
+    <dimen name="home_item_image">100dp</dimen>
+    <!-- VIDEO -->
+    <dimen name="video_image_size">100dp</dimen>
+    <dimen name="video_image_size_small">70dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="trans_pieces_spacing">40dp</dimen>
+    <dimen name="trans_translation_x">200dp</dimen>
+    <dimen name="trans_translation_y">-150dp</dimen>
+    <dimen name="trans_square_size">10dp</dimen>
+    <dimen name="trans_spacing">2dp</dimen>
+    <dimen name="margin_top">24dp</dimen>
+    <dimen name="page_width">300dp</dimen>
+    <dimen name="page_height">400dp</dimen>
+    <dimen name="pager_indicator_margin">450dp</dimen>
+    <dimen name="margin_one">1dp</dimen>
+</resources>

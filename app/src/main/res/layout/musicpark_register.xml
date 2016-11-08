@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="SIGNUP"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_large"
+                android:background="@color/main_red"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+               >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/user"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/light_gray"
+                        android:padding="@dimen/padding_medium"
+                        android:text="บัญชีผู้ใช้"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_small_more" />
+
+                    <EditText
+                        android:id="@+id/regis_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/padding_vlarge"
+                        android:layout_marginRight="@dimen/padding_vlarge"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/img_iph_signup_bg_textfill"
+                        android:drawableLeft="@drawable/img_iph_signup_icon_email"
+                        android:drawablePadding="@dimen/padding_small"
+                        android:hint="E-mail"
+                        android:padding="@dimen/padding_medium"
+                        android:textSize="@dimen/text_small" />
+
+                    <EditText
+                        android:id="@+id/regis_username"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="@dimen/padding_vlarge"
+                        android:layout_marginRight="@dimen/padding_vlarge"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:padding="@dimen/padding_medium"
+                        android:background="@drawable/img_iph_signup_bg_textfill"
+                        android:drawableLeft="@drawable/img_iph_signup_icon_password"
+                        android:drawablePadding="@dimen/padding_small"
+                        android:hint="Username"
+                        android:textSize="@dimen/text_small" />
+
+                    <EditText
+                        android:id="@+id/regis_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/padding_vlarge"
+                        android:layout_marginRight="@dimen/padding_vlarge"
+                        android:background="@drawable/img_iph_signup_bg_textfill"
+                        android:drawableLeft="@drawable/img_iph_signup_icon_password"
+                        android:drawablePadding="@dimen/padding_small"
+                        android:hint="Password"
+                        android:padding="@dimen/padding_medium"
+                        android:textSize="@dimen/text_small" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/user2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:background="@color/light_gray"
+                    android:padding="@dimen/padding_medium"
+                    android:text="ข้อมูลส่วนตัว"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_small_more" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/img_iph_signup_bg_textfill_profile_city"
+                            android:hint="Firstname"
+                            android:id="@+id/regis_firstname"
+                            android:paddingLeft="@dimen/padding_large"
+                            android:textSize="@dimen/text_small" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:id="@+id/regis_lastname"
+                            android:background="@drawable/img_iph_signup_bg_textfill_profile_city"
+                            android:hint="Lastname"
+                            android:paddingLeft="@dimen/padding_large"
+                            android:textSize="@dimen/text_small" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:id="@+id/regis_nickname"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:background="@drawable/img_iph_signup_bg_textfill_profile_city"
+                            android:hint="Nickname"
+                            android:paddingLeft="@dimen/padding_large"
+                            android:textSize="@dimen/text_small" />
+
+
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:background="@drawable/img_iph_editprofilw_button_image" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="72dp"
+                            android:background="@drawable/img_iph_editprofile_icon_image" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="40dp"
+                        android:text="Gender"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_small" />
+
+                    <TextView
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/img_iph_signup_unactive_button_gender"
+                        android:text="Male"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_small" />
+
+
+                    <TextView
+                        android:id="@+id/female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:drawableLeft="@drawable/img_iph_signup_active_button_gender"
+                        android:text="Female"
+                        android:textSize="@dimen/text_small" />
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/img_iph_signup_bg_textfill"
+                    android:drawableLeft="@drawable/img_iph_signup_icon_email"
+                    android:drawablePadding="@dimen/padding_small"
+                    android:hint="Phone"
+                    android:id="@+id/regis_phone"
+                    android:padding="5dp"
+                    android:textSize="@dimen/text_small" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGNUP"
+            android:layout_margin="@dimen/margin_small"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:id="@+id/bt_signup"
+            android:textSize="@dimen/text_medium"
+            android:background="@drawable/img_iph_editprofile_button_confirm"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

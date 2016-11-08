@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/navbar_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/padding_small"
+        android:src="@drawable/mc_logo" />
+
+    <ImageView
+        android:id="@+id/navbar_button_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="@dimen/padding_small"
+        android:src="@drawable/img_navbar_icon_menu"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/navbar_button_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="@dimen/padding_small"
+        android:src="@drawable/mc_user_icon"
+        android:visibility="visible" />
+
+</RelativeLayout>

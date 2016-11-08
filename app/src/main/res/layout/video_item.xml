@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="@dimen/video_image_size"
+            android:layout_height="@dimen/video_image_size"
+            android:background="@drawable/boder_gray"
+            android:padding="1dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_tabbar_more"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:id="@+id/video_item_image" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="มาย ดีไซน์"
+                android:textSize="@dimen/text_medium"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:id="@+id/video_item_title" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_small"
+                android:textColor="@color/text_blue"
+                android:text="ออกอากาศเมื่อ : 23 ธันวาคม 2557"
+                android:singleLine="true"
+                android:id="@+id/video_item_date" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="รายการมาย ดีไซน์ เป็นรายการที่ให้คุณผู้ชมสามารถเลือกเปลี่ยนอัญมณีได้ด้วยตนเอง ในแต่ละวันจะมีอัญมณีมากมายให้เลือก มีหลากหลายสีสัน ไม่ว่าจะเป็นพลอยธรรมชาติหรือพลอยที่เราสังเคราะห์ขึ้นมาชอบแบบไหนเลือกได้ตามใจคุณ อีกทั้งในแต่ละวันเรายังมีหลากหลายดีไซน์ ให้เลือกไม่ว่าจะเป็น แหวน จี้ ต่างหู เลือกจับจองเป็นเจ้าของได้ และที่สำคัญราคาของโปรโมชั่นในแต่ละวันยังพิเศษสุด"
+                android:lines="3"
+                android:ellipsize="end"
+                android:textSize="@dimen/text_small"
+                android:textColor="@android:color/darker_gray"
+                android:id="@+id/video_item_description" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

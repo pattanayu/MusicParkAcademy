@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="txt_white">#ffffff</color>
+    <color name="line_gray">#ffebebeb</color>
+    <color name="text_gray">#ffa9a9a9</color>
+    <color name="tab_gray">#4b4848</color>
+    <color name="black">#282727</color>
+    <color name="text_blue">#ff8351bc</color>
+    <color name="tab_select">#FF7536B9</color>
+    <color name="tab_unselect">#FF8957C0</color>
+    <color name="main_item_price">#d00909</color>
+    <color name="main_red">#a61717</color>
+    <color name="trans">#c7a61717</color>
+    <color name="light_gray">#b0555353</color>
+    <color name="trans_square_color">#b3bfbcbc</color>
+    <color name="trans_selected_square_color">#c0a82121</color>
+    <color name="bg_color">#e78e8b</color>
+    <color name="white">#c3ffffff</color>
+
+</resources>

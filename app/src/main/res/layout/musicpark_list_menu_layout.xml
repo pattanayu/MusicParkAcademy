@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/container"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <RelativeLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/menu_list_pic"
+                android:background="@drawable/guitar_two">
+                <ImageView
+                    android:id="@+id/menu_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/musicpark_course_lebelx"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/menu_list_pic"
+                android:background="@drawable/mic_three">
+                <ImageView
+                    android:id="@+id/menu_teacher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/musicpark_teacher_lebelx"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/menu_list_pic"
+                android:background="@drawable/violin_seven">
+                <ImageView
+                    android:id="@+id/menu_chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/nusicpark_chatroom"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/menu_list_pic"
+                android:background="@drawable/guitar_fore">
+                <ImageView
+                    android:id="@+id/menu_event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/musicpark_event_lebelx"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/menu_list_pic"
+                android:background="@drawable/piano_five">
+
+                <ImageView
+                    android:id="@+id/menu_classroom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/musicpark_classroom_lebelx"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/menu_list_pic"
+                android:background="@drawable/violin_six">
+
+                <ImageView
+                    android:id="@+id/menu_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/musicpark_video_lebelx"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/menu_list_pic"
+                android:background="@drawable/violin_seven">
+
+                <ImageView
+                    android:id="@+id/menu_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/musicpark_location_lebelx"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/menu_list_pic"
+                android:background="@drawable/guitar_fore">
+                <ImageView
+                    android:id="@+id/menu_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/musicpark_about_lebelx"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

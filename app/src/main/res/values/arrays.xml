@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_text">
+        <item>Menu</item>
+        <item>Course</item>
+        <item>Teacher</item>
+        <item>Video</item>
+        <item>Event</item>
+        <item>Classroom</item>
+        <item>Scan Code</item>
+        <item>Contact Us</item>
+        <item>Facebook</item>
+        <item>About Musicpark</item>
+    </string-array>
+    <string-array name="menu_shop_string">
+        <item>ต่างหู</item>
+        <item>สร้อยข้อมือ</item>
+        <item>แหวน</item>
+        <item>กำไลข้อมือ</item>
+        <item>จี้</item>
+        <item>สร้อยคอ</item>
+        <item>เข็มกลัด</item>
+    </string-array>
+    <string-array name="classrooms">
+        <item>Piano room</item>
+        <item>Guitar room</item>
+        <item>Singer room</item>
+        <item>Violin room</item>
+        <item>Drums room</item>
+        <item>Saxophone room</item>
+    </string-array>
+    <string-array name="subjects">
+        <item>Piano teacher</item>
+        <item>Guitar teacher</item>
+        <item>Singer teacher</item>
+        <item>Violin teacher</item>
+        <item>Drums teacher</item>
+        <item>Saxophone teacher</item>
+    </string-array>
+    <string-array name="teacher_name">
+        <item>Harry Styles</item>
+        <item>Niall Horan</item>
+        <item>Liam Payne</item>
+        <item>Louis Tomlinson</item>
+        <item>Zayn Malik</item>
+        <item>Liam Hemsworth</item>
+    </string-array>
+    <string-array name="course_title">
+        <item>ชื่อคอร์ส</item>
+        <item>รายละเอียด</item>
+        <item>เวลาเรียน</item>
+        <item>ราคา</item>
+        <item>ครูผู้สอน</item>
+        <item>ห้องเรียน</item>
+    </string-array>
+    <string-array name="course_details">
+        <item>Always keep the faith!</item>
+        <item>Taylor Alison Swift is an American singer-songwriter. Raised in Wyomissing, Pennsylvania, she moved to Nashville, Tennessee, at the age of 14 to pursue a career in country music. </item>
+        <item>Always keep the faith!</item>
+        <item>Always keep the faith!</item>
+        <item>Always keep the faith!</item>
+        <item>Taylor Alison Swift is an American singer-songwriter. Raised in Wyomissing, Pennsylvania, she moved to Nashville, Tennessee, at the age of 14 to pursue a career in country music. </item>
+
+    </string-array>
+    <string-array name="menu_image">
+        <item>@drawable/musicpark_menu_icon</item>
+        <item>@drawable/musicpark_course_icon</item>
+        <item>@drawable/musicpark_event_icon</item>
+        <item>@drawable/musicpark_video_icon</item>
+        <item>@drawable/musicpark_event_icon</item>
+        <item>@drawable/musicpark_classroom_icon</item>
+        <item>@drawable/musicpark_qr_icon</item>
+        <item>@drawable/musicpark_contact_icon</item>
+        <item>@drawable/musicpark_facebook_icon</item>
+        <item>@drawable/musicpark_about_icon</item>
+    </string-array>
+</resources>
